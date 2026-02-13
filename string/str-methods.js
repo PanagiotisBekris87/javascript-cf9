@@ -55,3 +55,11 @@ for (let i = 0; i < str1.length; i++) {
 for (const char of str1) {
    console.log(char);
 }
+
+// substring
+// str1 = Hello
+console.log(str1.substring(1, 4)); // ell  , το 4 ειναι not inclusive
+
+//slice (Μπορύμε να πάμε και από την αντίθετη πλευρά με αρνητικό)
+console.log(str1.slice(1, 4)); //"ell"
+console.log(str1.slice(-3)); //"ell"
