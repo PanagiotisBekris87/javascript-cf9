@@ -18,7 +18,6 @@ const obj3 = addToObj(obj, "firstname", "Maria");
 console.log(obj3);
 
 // immu delete
-// rewatch 7:03 ωρα
 const deleteFromObj = (obj, field) => {
    const { [field]: _, ...objToReturn } = obj;
    // destructuring to exclude field
