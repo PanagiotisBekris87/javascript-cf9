@@ -24,9 +24,8 @@ function sayHi(name) {
    console.log(`Hi ${name}`);
 }
 
-sayHi(); // hi guest
+sayHi(); // hi Guest
 
-//rewatch 7:20 ωρα
 // 5. Default params, Overloading
 function sayHi2(name = "Guest") {
    console.log(`Hi ${name}`);
