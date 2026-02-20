@@ -38,7 +38,6 @@ function addUser(name = "Anonymous", age = 18, isAdmin = false) {
 }
 
 // 6. Rest parameters
-// rewatch 7:25 απο πριν συνεχεια
 function max(...numbers) {
    return Math.max(...numbers);
 }
